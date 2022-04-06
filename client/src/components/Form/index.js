@@ -1,8 +1,8 @@
 import React from "react"
-import useStyles from "./styles"
+import styles from "./styles"
 
 function index() {
-	const classes = useStyles()
+	const classes = styles()
 	return <div>fORM</div>
 }
 

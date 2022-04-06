@@ -1,9 +1,9 @@
 import React from "react"
 import Post from "./Post"
-import useStyles from "./styles"
+import styles from "./styles"
 
 function index() {
-	const classes = useStyles()
+	const classes = styles()
 	return (
 		<div>
 			Posts
